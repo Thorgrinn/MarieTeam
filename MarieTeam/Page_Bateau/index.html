@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Compagnie Atlantik</title>
+
+        <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+        <h1><center>COMPAGNIE ATLANTIK</center></h1>
+        
+      </head>
+    
+    <body>
+        
+        <form action="bdd.php" method="POST">
+
+
+            <label>ID du bateau</label> 
+            <p><input type="text" name="T1" size="20"/></p>
+
+            <label>Nom du bateau</label>
+            <p></p><input type="text" name="T2" size="20"/></p>
+        
+            <label>Longueur du bateau</label>
+            <p><input type="text" name="T3" size="20"/></p>
+
+            <label>Largeur du bateau</label>
+            <p><input type="text" name="T4" size="20"/></p>
+
+
+            Equipement
+            <p><textarea rows="2" name="S1" cols="20"></textarea></p>
+
+
+            <p><input type="submit" value="ENVOYER" name="B3"></p>
+
+            <br>
+
+            <p>Pour supprimer un bateau : <a href="suppression\supprimer.html">page supprimer</a></p>
+            <br>
+            <p>Cliquer ici pour un récapitulatif des bateaux : <a href="Recapitulatif\Recapitulatif.php">page recapitulative</a></p>
+
+            <br>
+
+            <p>Pour modifier un bateau : <a href="Modifier\modifification.php">page modifier</a></p>
+
+
+
+            
+
+
+
+        </form>
+
+    </body>
+
+</html>

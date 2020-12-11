@@ -1,0 +1,27 @@
+﻿body {
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+
+p {
+    color: green ;
+    font-family:'Agency FB';
+    font-size:22px; 
+    
+}
+
+label {
+    color:blue;
+    DISPLAY: inline;
+    FLOAT: left;
+    width:170px;
+    font-weight: bold;
+    
+}
+
+
+
+
